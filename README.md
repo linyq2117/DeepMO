@@ -20,10 +20,10 @@ The raw data of breast cancer multi-omics can be download from The Cancer Genome
 (5) Define and train deep neural network and test on test dataset.<br>
 (6) Show the output.
 
-In this study, we repeat the process for 10 times and use the mean of results to reduce error.All the codes in this section are accomplished in Python3.7.
+In this study, we repeat the process for 10 times and use the mean of results to reduce error.All the codes in this section are implemented in Python 3.7.
 
 ## Other compared methods
-To further evaluate the performance of DeepMO on multiple classification, we selected some state-of-art methods of omics data integration, including the logistic regression model/multinational model with Elastic Net (EN) regularization and Random Forest (RF) in the concatenation and ensemble frameworks. The concrete implementation can be found from [1]. All the codes in this section is implemented in R 3.6.2.
+To further evaluate the performance of DeepMO on multiple classification, we selected some state-of-art methods of omics data integration, including the logistic regression model/multinational model with Elastic Net (EN) regularization and Random Forest (RF) in the concatenation and ensemble frameworks. The concrete implementation can be found from [1]. All the codes in this section are implemented in R 3.6.2.
 
 ## Reference
 [1]Yang Z Y , Xia L Y , Zhang H , et al. MSPL: Multimodal Self-Paced Learning for multi-omics feature selection and data integration[J]. IEEE Access, 2019, PP(99):1-1.
